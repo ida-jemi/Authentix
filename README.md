@@ -1,12 +1,17 @@
-# React + Vite
+<h1>AI Content Risk & Fraud Detection Platform</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack MERN + AI web application that analyzes digital content to detect fake news, bias, and potential risks using Google Gemini APIs. Users can input a URL or text to receive structured credibility and risk insights.
 
-Currently, two official plugins are available:
+<h3>Features</h3>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- URL & text-based content analysis
+- Fake news & misinformation detection
+- Bias and sentiment evaluation
+- Privacy & content risk identification
+- Demo mode (works without API key)
 
-## Expanding the ESLint configuration
+<h3>Tech Stack</h3>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ - **Frontend**: React, TypeScript, Vite, Tailwind CSS
+ - **Backend**: Node.js, Express, MongoDB
+ - **AI**: Google Gemini API
